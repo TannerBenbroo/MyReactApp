@@ -44,8 +44,8 @@ export const Avatar = Styled.img`
     margin-left: auto;
     margin-right: auto; 
     background-image: url(${props => props.picture});
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
     background-size: cover;
     background-position: top center;
     border-radius: 50%;

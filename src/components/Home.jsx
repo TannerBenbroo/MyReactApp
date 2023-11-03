@@ -1,7 +1,5 @@
 import React from "react";
 
-import InstagramIcon from '@material-ui/icons/Instagram';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 
 import { NavBar } from './NavBar';
@@ -33,13 +31,10 @@ const funFactsBuilder = (length = 3) => {
 export const Home = () => (
     <HomeWrapper>
         <MainContent>
-            <Avatar picture="images/Wravis-Wcott.jpg" />
+            <Avatar picture="images/yrn.jpg" />
             <Greeting>Yo, this is Tanner</Greeting>
             <Hobbies>{funFactsBuilder()}</Hobbies>
             <SocialLinks>
-                <SocialLink url = "https://www.instagram.com/phocisticks/">
-                    <InstagramIcon style={{ fontSize: 40 }} />
-                </SocialLink>
                 <SocialLink url = "https://github.com/TannerBenbroo">
                     <GitHubIcon style= {{ fontSize: 40}} />
                 </SocialLink>
