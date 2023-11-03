@@ -18,7 +18,7 @@ body, html {
 
 .home {
     /* The image used */
-    background: url(/images/mark-color.jpg) no-repeat 50% fixed;
+    background: url(/images/Wravis-Wcott.jpg) no-repeat 50% fixed;
     background-size: cover;
     height: 100%;
     overflow: hidden;
@@ -26,7 +26,7 @@ body, html {
 
 .about {
   /* The image used */
-  background: url(/images/mark-nocolor.jpg) no-repeat 50% fixed;
+  background: url(/images/Wravis-Wcott.jpg) no-repeat 50% fixed;
   background-size: cover;
   height: 100%;
   overflow: hidden;
@@ -34,7 +34,7 @@ body, html {
 
 .resume {
     /* The image used */
-    background: url(/images/mark-nocolor.jpg) no-repeat 50% fixed;
+    background: url(/images/Wravis-Wcott.jpg) no-repeat 50% fixed;
     background-size: cover;
     height: 100%;
     overflow: hidden;
