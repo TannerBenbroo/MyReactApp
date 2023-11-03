@@ -9,7 +9,7 @@ import { Home } from './components/Home';
 
 const App = () => (
   <Router>
-    <div style={{ color: 'black', padding: '12px', fontSize: '16px' }}>
+    <div style={{ color: 'black', padding: '0px', fontSize: '16px' }}>
       <Switch>
         <Route exact path="/">
           <Home />

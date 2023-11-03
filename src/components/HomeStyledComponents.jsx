@@ -3,7 +3,7 @@ import Styled from '@emotion/styled';
 export const HomeWrapper = Styled.div`
     background-color: gray;
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
     overflow: hidden;
 `;
 
@@ -13,7 +13,7 @@ export const MainContent = Styled.div`
     display: flex;
     -ms-flex-direction: column;
         flex-direction: column;
-    min-height: 100vh;
+    height: 100vh;
     max-width: 75%;
     margin-left: 12.5%;
     -ms-flex-pack: center;
