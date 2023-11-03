@@ -1,2 +1,1 @@
-# MyReactApp
-I made a mf app nigga
+# my mf website niqqa
