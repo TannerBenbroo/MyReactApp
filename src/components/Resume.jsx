@@ -20,14 +20,15 @@ const ResumeEntry = ({
 )
 
 const resumeEntryBuilder = (entries) => {
-    entries.map(entry =>
+    return entries.map(entry =>
         <ResumeEntry
+            key={entry.header}
             header={entry.header}
             subHeader={entry.subHeader}
             dates={entry.dates}
             description={entry.description}
-            />
-            )
+        />
+    )
 }
 
 export const Resume = () => (
@@ -35,13 +36,13 @@ export const Resume = () => (
         <MainContent>
             <SectionTitle> Education </SectionTitle>
             <ResumeEntry
-                header={ResumeObject.education[0].header}
-                subHeader={resumeObject.education[0].subHeader}
-                dates={resumeObject.education[0].dates}
-                description={resumeObject.education[0].description}
+                header={ResumeEntry.education[0].header}
+                subHeader={ResumeEntry.education[0].subHeader}
+                dates={ResumeEntry.education[0].dates}
+                description={ResumeEntry.education[0].description}
             />
             <SectionTitle> WORK </SectionTitle>
-            {resumeEntryBuilder(resumeObject.work)}
+            {resumeEntryBuilder(ResumeEntry.work)}
         </MainContent>
     </ResumeWrapper>
 );

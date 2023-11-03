@@ -8,12 +8,18 @@ import { Resume } from './components/Resume';
 import { Home } from './components/Home';
 
 const App = () => (
-  <div style={{ color: 'black', padding: '10px', fontSize: '48px' }}>
-    APP
-  </div>
+  <Router>
+    <div style={{ color: 'black', padding: '12px', fontSize: '16px' }}>
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/resume">
+          <Resume />
+        </Route>
+      </Switch>
+    </div>
+  </Router>
 );
-
-
-
 
 export default App;

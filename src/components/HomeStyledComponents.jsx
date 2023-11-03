@@ -3,7 +3,7 @@ import Styled from '@emotion/styled';
 export const HomeWrapper = Styled.div`
     background-color: gray;
     background-size: cover;
-    height: 100%;
+    height: 100vh;
     overflow: hidden;
 `;
 
